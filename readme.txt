@@ -2,7 +2,7 @@ Welcome to my Repo
 
 Fail2ban jail+filter to protect stratum from DDoS attack.
 
-Edit your /etc/fail2ban/jail.conf and do not forget to edit /path/to/stratum/file.log!
+Edit your /etc/fail2ban/jail.conf add somewhere under # JAILS, and do not forget to edit /path/to/stratum/file.log!
 
 [stratum]
 enabled  = true
