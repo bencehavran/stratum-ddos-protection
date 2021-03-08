@@ -71,7 +71,7 @@ banaction = iptables-allports
 port = all
 logpath = /var/log/kern.log
 bantime = 1800
-maxretry = 3
+maxretry = 1
 
 than make a iptables-dropped.conf under /etc/fail2ban/filter.d/iptables-dropped.conf
 
