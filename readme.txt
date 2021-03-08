@@ -73,7 +73,7 @@ logpath = /var/log/kern.log
 bantime = 1800
 maxretry = 3
 
-than make a iptables-dropped.conf under /etc/fail2ban/filter.d/iptables.conf
+than make a iptables-dropped.conf under /etc/fail2ban/filter.d/iptables-dropped.conf
 
 [Definition]
 failregex = IPTables Dropped: .* SRC=<HOST>
